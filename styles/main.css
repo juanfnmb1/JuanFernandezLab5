@@ -1,0 +1,52 @@
+@import "normalize.css";
+
+@media screen and (max-width: 800px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    background-color: rgb(19, 135, 19);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    background-color: rgb(19, 135, 19);
+  }
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.grid-item {
+  background-color: rgba(192, 176, 88, 0.8);
+  border: 10px solid rgba(247, 246, 188, 0.8);
+  border-style: inset;
+  padding: 10px;
+  font-size: 30px;
+}
+
+#textportion {
+  text-align: center;
+}
+p {
+  font-family: Varela, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(130, 214, 106);
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+h1 {
+  font-family: Varela, sans-serif;
+  text-align: center;
+  color: rgb(130, 214, 106);
+  text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+body {
+  background-color: rgb(19, 135, 19);
+}
